@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(104, 102, 102);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+#input-box{
+    background-color: gainsboro;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#input{
+    width: 80%;
+    align-items: center;
+    outline: none;
+    font-size: medium;
+    background-color: gainsboro;
+    border: none;
+}
+#icon{
+    width: 5%;
+    position: relative;
+    padding: 1.3rem 0.375rem;
+}
+#btn{
+    left: 10%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.2;
+}
+#todolist{
+    list-style-type: circle;
+}
+#todolist li{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+}
