@@ -42,6 +42,7 @@ function removeEle(ele){
 
 function updateTasksC(){
     noOfTasks.textContent = `${listEle.length} tasks left.`;
-    tasksCont.insertBefore(noOfTasks, tasksCont.firstChild);
-}
+    
+};
 updateTasksC();
+tasksCont.insertBefore(noOfTasks, tasksCont.firstChild);
