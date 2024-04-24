@@ -3,6 +3,7 @@ var listEle = ['Learn ReactJs', 'Create Projects'];
 const taskBtn = document.getElementById('btn');
 const eleList = document.querySelector('#todolist');
 const tasksCont = document.querySelector('.footer');
+const noOfTasks = document.createElement('label');
 
 listEle.forEach((ele, index) => element(ele, index));
 
@@ -40,7 +41,6 @@ function removeEle(ele){
 }
 
 function updateTasksC(){
-    const noOfTasks = document.createElement('label');
     noOfTasks.textContent = `${listEle.length} tasks left.`;
     tasksCont.insertBefore(noOfTasks, tasksCont.firstChild);
 }
